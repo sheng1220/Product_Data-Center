@@ -19,12 +19,10 @@ const FIELD_LABELS = [
   ["bus",                  "BG"],
   ["bu",                   "BU"],
   ["mag",                  "Mag"],
-  ["ag",                   "AG"],
   ["cag",                  "CAG"],
   ["cag_name",             "CAG_NAME"],
   ["portfolio",            "PORTFOLIO"],
   ["bsmi",                 "BSMI"],
-  ["qty_box_pc",           "Qty Box (Pc)"],
 ];
 
 async function loadData() {
@@ -210,12 +208,10 @@ function renderPage() {
       <td class="desktop-only">${e(p.bus)}</td>
       <td class="desktop-only">${e(p.bu)}</td>
       <td class="desktop-only">${e(p.mag)}</td>
-      <td class="desktop-only">${e(p.ag)}</td>
       <td class="desktop-only">${e(p.cag)}</td>
       <td class="desktop-only">${e(p.cag_name)}</td>
       <td class="desktop-only">${e(p.portfolio)}</td>
       <td class="desktop-only">${bsmiCell(p.bsmi_material, p.bsmi_description)}</td>
-      <td class="desktop-only">${qtyBoxCell(p.qty_box_pc, p.ms)}</td>
       <td class="mobile-only expand-btn">›</td>
     `;
     fragment.appendChild(tr);
@@ -254,12 +250,6 @@ function showDetail(p) {
       return `<div class="detail-row">
         <span class="detail-label">${label}</span>
         <span class="detail-value">${msCell(p.ms)}</span>
-      </div>`;
-    }
-    if (key === "qty_box_pc") {
-      return `<div class="detail-row">
-        <span class="detail-label">${label}</span>
-        <span class="detail-value">${qtyBoxCell(p.qty_box_pc, p.ms)}</span>
       </div>`;
     }
     if (key === "planner") {
@@ -310,16 +300,21 @@ function isWarningMs(ms) {
   return /^Z[FGHO]/i.test(ms || '');
 }
 
-function qtyBoxCell(qty, ms) {
-  if (!qty) return '<span class="pm-empty">—</span>';
-  if (isWarningMs(ms)) return `<span class="qty-nd">⚠ ${e(qty)}</span>`;
-  return e(qty);
-}
+const MS_LABELS = {
+  ZF: "Stop Supply",
+  ZG: "EOL",
+  ZH: "Fully Deleted for Plant",
+  ZI: "Phase In",
+  ZO: "To be Phased Out",
+};
 
 function msCell(ms) {
   if (!ms) return '<span class="pm-empty">—</span>';
-  if (isWarningMs(ms)) return `<span class="ms-warning">${e(ms)}</span>`;
-  return e(ms);
+  const titleAttr = MS_LABELS[String(ms).toUpperCase()]
+    ? ` title="${e(MS_LABELS[String(ms).toUpperCase()])}" style="cursor:help"`
+    : '';
+  if (isWarningMs(ms)) return `<span class="ms-warning"${titleAttr}>${e(ms)}</span>`;
+  return `<span${titleAttr}>${e(ms)}</span>`;
 }
 
 function plannerCell(planner) {
