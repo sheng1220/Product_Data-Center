@@ -224,7 +224,6 @@ tbody tr:hover { background: #2a2a2a; }
 }
 .pm-empty { color: #444; }
 .ms-warning { color: #e05a5a; font-weight: 600; }
-.qty-nd { color: #e05a5a; font-weight: 600; }
 
 /* BSMI badges — green: matched via material, orange: matched via material_description */
 .bsmi-material { font-weight: 600; color: #00C896; }
