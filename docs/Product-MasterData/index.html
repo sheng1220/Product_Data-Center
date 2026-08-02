@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>產品查詢</title>
+  <link rel="stylesheet" href="style.css?v=20260802000003" />
+</head>
+<body>
+  <header>
+    <h1>產品查詢系統</h1>
+    <span id="data-date"></span>
+    <span id="contact-note">！本資料僅供參考，使用上建議再次確認！　｜　系統維護：Ryan</span>
+  </header>
+
+  <main>
+    <div class="control-panel">
+
+      <div class="filter-row">
+        <div class="filter-item">
+          <label for="bg-filter">BG</label>
+          <select id="bg-filter">
+            <option value="">全部</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="bu-filter">BU</label>
+          <select id="bu-filter">
+            <option value="">全部</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="mag-filter">Mag</label>
+          <select id="mag-filter">
+            <option value="">全部</option>
+          </select>
+        </div>
+        <div class="filter-item">
+          <label for="desc-mag-filter">Description MAG</label>
+          <select id="desc-mag-filter">
+            <option value="">全部</option>
+          </select>
+        </div>
+      </div>
+
+      <input
+        type="search"
+        id="search-input"
+        placeholder="輸入關鍵字搜尋產品名稱或料號..."
+        autocomplete="off"
+        aria-label="搜尋產品名稱或料號"
+      />
+
+    </div>
+
+    <div class="result-bar">
+      <div id="result-count" aria-live="polite"></div>
+      <button id="btn-export" class="export-btn" title="匯出 Excel">⬇ 匯出 Excel</button>
+    </div>
+
+    <div class="table-wrapper">
+      <table id="results-table" aria-label="產品查詢結果">
+        <thead>
+          <tr>
+            <th>Material</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>PM</th>
+            <th>Planner</th>
+            <th class="desktop-only">Description MAG</th>
+            <th class="desktop-only">BG</th>
+            <th class="desktop-only">BU</th>
+            <th class="desktop-only">Mag</th>
+            <th class="desktop-only">AG</th>
+            <th class="desktop-only">CAG</th>
+            <th class="desktop-only">CAG_NAME</th>
+            <th class="desktop-only">PORTFOLIO</th>
+            <th class="desktop-only">BSMI</th>
+            <th class="desktop-only">Qty Box (Pc)</th>
+            <th class="mobile-only"></th>
+          </tr>
+        </thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+
+    <div class="pagination" id="pagination">
+      <button id="btn-prev">&#8249;</button>
+      <input type="number" id="page-input" min="1" value="1" />
+      <span id="page-total">/ 1</span>
+      <button id="btn-next">&#8250;</button>
+    </div>
+
+    <p id="empty-message" hidden>找不到符合的產品。</p>
+  </main>
+
+  <!-- Detail Modal (mobile) -->
+  <div id="detail-overlay" class="detail-overlay" hidden>
+    <div class="detail-sheet">
+      <div class="detail-header">
+        <span class="detail-title">產品詳細資料</span>
+        <button class="detail-close" id="detail-close">✕</button>
+      </div>
+      <div class="detail-body" id="detail-body"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="app.js?v=20260802000003"></script>
+</body>
+</html>
