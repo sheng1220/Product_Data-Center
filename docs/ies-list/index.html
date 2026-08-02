@@ -87,6 +87,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
     padding: 0 2px;
   }
@@ -153,7 +155,7 @@
 <body>
   <header>
     <h1>IES 檔案清單</h1>
-    <span id="data-date">資料更新時間：2026-08-02 21:08</span>
+    <span id="data-date">資料更新時間：2026-08-02 21:20</span>
     <span id="contact-note">系統維護：Ryan</span>
   </header>
 
@@ -376,14 +378,16 @@ selectAllCheckbox.addEventListener('change', () => {
 });
 
 downloadSelectedBtn.addEventListener('click', () => {
-  selectedLinks.forEach((link) => {
-    const a = document.createElement('a');
-    a.href = link;
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+  Array.from(selectedLinks).forEach((link, i) => {
+    setTimeout(() => {
+      const a = document.createElement('a');
+      a.href = link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }, i * 800);
   });
 });
 
