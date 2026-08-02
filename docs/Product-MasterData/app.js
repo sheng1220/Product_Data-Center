@@ -310,11 +310,10 @@ const MS_LABELS = {
 
 function msCell(ms) {
   if (!ms) return '<span class="pm-empty">—</span>';
-  const titleAttr = MS_LABELS[String(ms).toUpperCase()]
-    ? ` title="${e(MS_LABELS[String(ms).toUpperCase()])}" style="cursor:help"`
-    : '';
-  if (isWarningMs(ms)) return `<span class="ms-warning"${titleAttr}>${e(ms)}</span>`;
-  return `<span${titleAttr}>${e(ms)}</span>`;
+  const label = MS_LABELS[String(ms).toUpperCase()];
+  const text = label ? `${ms}(${label})` : ms;
+  if (isWarningMs(ms)) return `<span class="ms-warning">${e(text)}</span>`;
+  return e(text);
 }
 
 function plannerCell(planner) {
