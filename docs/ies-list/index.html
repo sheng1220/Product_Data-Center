@@ -94,7 +94,8 @@
   }
   #result-count { font-size: 0.82rem; color: #666; }
 
-  #download-selected-btn {
+  .selection-controls { display: flex; align-items: center; gap: 0.5rem; }
+  #download-selected-btn, #clear-selection-btn {
     background: #242424;
     color: #aaa;
     border: 1px solid #444;
@@ -106,8 +107,11 @@
     white-space: nowrap;
     transition: border-color 0.15s, color 0.15s;
   }
-  #download-selected-btn:hover:not(:disabled) { border-color: #00C896; color: #00C896; }
-  #download-selected-btn:disabled { opacity: 0.4; cursor: default; }
+  #download-selected-btn:hover:not(:disabled), #clear-selection-btn:hover:not(:disabled) {
+    border-color: #00C896;
+    color: #00C896;
+  }
+  #download-selected-btn:disabled, #clear-selection-btn:disabled { opacity: 0.4; cursor: default; }
 
   .select-col { width: 2.2rem; }
   td.select-cell { text-align: center; }
@@ -155,7 +159,7 @@
 <body>
   <header>
     <h1>IES 檔案清單</h1>
-    <span id="data-date">資料更新時間：2026-08-02 21:20</span>
+    <span id="data-date">資料更新時間：2026-08-02 21:31</span>
     <span id="contact-note">系統維護：Ryan</span>
   </header>
 
@@ -169,7 +173,10 @@
 
     <div class="result-bar">
       <div id="result-count" aria-live="polite"></div>
-      <button id="download-selected-btn" type="button" disabled>下載已選取 (0)</button>
+      <div class="selection-controls">
+        <button id="clear-selection-btn" type="button" disabled>清除已選取</button>
+        <button id="download-selected-btn" type="button" disabled>下載已選取 (0)</button>
+      </div>
     </div>
 
     <div class="table-wrapper">
@@ -204,6 +211,7 @@ const input = document.getElementById('filter-input');
 const sortableHeaders = document.querySelectorAll('#file-table th[data-field]');
 const selectAllCheckbox = document.getElementById('select-all-checkbox');
 const downloadSelectedBtn = document.getElementById('download-selected-btn');
+const clearSelectionBtn = document.getElementById('clear-selection-btn');
 
 function renderChips() {
   chipContainer.innerHTML = '';
@@ -285,6 +293,7 @@ function updateSortArrows() {
 function updateSelectionUI() {
   downloadSelectedBtn.textContent = `\u4e0b\u8f09\u5df2\u9078\u53d6 (${selectedLinks.size})`;
   downloadSelectedBtn.disabled = selectedLinks.size === 0;
+  clearSelectionBtn.disabled = selectedLinks.size === 0;
 
   const visibleLinks = lastFiltered.map((item) => item.link);
   const allChecked = visibleLinks.length > 0 && visibleLinks.every((l) => selectedLinks.has(l));
@@ -374,6 +383,11 @@ selectAllCheckbox.addEventListener('change', () => {
   } else {
     lastFiltered.forEach((item) => selectedLinks.delete(item.link));
   }
+  renderTable();
+});
+
+clearSelectionBtn.addEventListener('click', () => {
+  selectedLinks.clear();
   renderTable();
 });
 
