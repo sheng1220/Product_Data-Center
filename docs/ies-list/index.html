@@ -92,6 +92,24 @@
   }
   #result-count { font-size: 0.82rem; color: #666; }
 
+  #download-selected-btn {
+    background: #242424;
+    color: #aaa;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  #download-selected-btn:hover:not(:disabled) { border-color: #00C896; color: #00C896; }
+  #download-selected-btn:disabled { opacity: 0.4; cursor: default; }
+
+  .select-col { width: 2.2rem; }
+  td.select-cell { text-align: center; }
+
   .table-wrapper {
     max-height: 70vh;
     overflow: auto;
@@ -135,7 +153,7 @@
 <body>
   <header>
     <h1>IES 檔案清單</h1>
-    <span id="data-date">資料更新時間：2026-08-02 20:34</span>
+    <span id="data-date">資料更新時間：2026-08-02 20:46</span>
     <span id="contact-note">系統維護：Ryan</span>
   </header>
 
@@ -149,12 +167,14 @@
 
     <div class="result-bar">
       <div id="result-count" aria-live="polite"></div>
+      <button id="download-selected-btn" type="button" disabled>下載已選取 (0)</button>
     </div>
 
     <div class="table-wrapper">
       <table id="file-table" aria-label="IES 檔案清單">
         <thead>
           <tr>
+            <th class="select-col"><input type="checkbox" id="select-all-checkbox" aria-label="全選"></th>
             <th data-field="filename">檔名<span class="sort-arrow"></span></th>
             <th data-field="path">資料夾路徑<span class="sort-arrow"></span></th>
           </tr>
@@ -167,10 +187,12 @@
   </main>
 
 <script>
-const DATA = [{"filename": "BWP150 LED33WW 30W 220-240V SWB.ies", "path": "SmB tunnel (BWP150)/05 Photometric/Tunnel Eco final photometric files/BWP150 LED33WW 30W 220-240V SWB.ies", "link": "https://drive.google.com/uc?id=1Tl-r4HR-lVrWCYhOD5aP2-Gpl0lDU6Bi&export=download"}, {"filename": "BWP150 LED36NW 30W 220-240V SWB.ies", "path": "SmB tunnel (BWP150)/05 Photometric/Tunnel Eco final photometric files/BWP150 LED36NW 30W 220-240V SWB.ies", "link": "https://drive.google.com/uc?id=1N8twx87wUH46h218Fe7laJstMKui7DyG&export=download"}, {"filename": "BWP150 LED44WW 40W 220-240V SWB.ies", "path": "SmB tunnel (BWP150)/05 Photometric/Tunnel Eco final photometric files/BWP150 LED44WW 40W 220-240V SWB.ies", "link": "https://drive.google.com/uc?id=1pmpEKyitBSqN36Eje0-FbJARzx4nylrN&export=download"}, {"filename": "BWP150 LED46NW 40W 220-240V SWB.ies", "path": "SmB tunnel (BWP150)/05 Photometric/Tunnel Eco final photometric files/BWP150 LED46NW 40W 220-240V SWB.ies", "link": "https://drive.google.com/uc?id=1iTRkPyzHUAJV-hd2QXSGIlV6lA8dEGtS&export=download"}];
+const DATA = [];
 let chips = [];
 let sortField = 'filename';
 let sortAsc = true;
+let selectedLinks = new Set();
+let lastFiltered = [];
 
 const tbody = document.getElementById('file-tbody');
 const emptyMsg = document.getElementById('empty-message');
@@ -178,6 +200,8 @@ const resultCount = document.getElementById('result-count');
 const chipContainer = document.getElementById('chip-container');
 const input = document.getElementById('filter-input');
 const sortableHeaders = document.querySelectorAll('#file-table th[data-field]');
+const selectAllCheckbox = document.getElementById('select-all-checkbox');
+const downloadSelectedBtn = document.getElementById('download-selected-btn');
 
 function renderChips() {
   chipContainer.innerHTML = '';
@@ -256,6 +280,17 @@ function updateSortArrows() {
   });
 }
 
+function updateSelectionUI() {
+  downloadSelectedBtn.textContent = `\u4e0b\u8f09\u5df2\u9078\u53d6 (${selectedLinks.size})`;
+  downloadSelectedBtn.disabled = selectedLinks.size === 0;
+
+  const visibleLinks = lastFiltered.map((item) => item.link);
+  const allChecked = visibleLinks.length > 0 && visibleLinks.every((l) => selectedLinks.has(l));
+  const someChecked = visibleLinks.some((l) => selectedLinks.has(l));
+  selectAllCheckbox.checked = allChecked;
+  selectAllCheckbox.indeterminate = !allChecked && someChecked;
+}
+
 function renderTable() {
   tbody.innerHTML = '';
   const activeChips = chips.filter((c) => c.selected && c.text);
@@ -274,12 +309,28 @@ function renderTable() {
   });
 
   updateSortArrows();
+  lastFiltered = filtered;
 
   emptyMsg.hidden = filtered.length !== 0;
   resultCount.textContent = `\u5171 ${filtered.length} \u7b46`;
 
   filtered.forEach((item) => {
     const tr = document.createElement('tr');
+
+    const tdCheck = document.createElement('td');
+    tdCheck.className = 'select-cell';
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = selectedLinks.has(item.link);
+    checkbox.addEventListener('change', () => {
+      if (checkbox.checked) {
+        selectedLinks.add(item.link);
+      } else {
+        selectedLinks.delete(item.link);
+      }
+      updateSelectionUI();
+    });
+    tdCheck.appendChild(checkbox);
 
     const tdName = document.createElement('td');
     tdName.textContent = item.filename;
@@ -292,10 +343,13 @@ function renderTable() {
     a.rel = 'noopener noreferrer';
     tdPath.appendChild(a);
 
+    tr.appendChild(tdCheck);
     tr.appendChild(tdName);
     tr.appendChild(tdPath);
     tbody.appendChild(tr);
   });
+
+  updateSelectionUI();
 }
 
 input.addEventListener('input', syncChipsFromInput);
@@ -309,6 +363,27 @@ sortableHeaders.forEach((th) => {
       sortAsc = true;
     }
     renderTable();
+  });
+});
+
+selectAllCheckbox.addEventListener('change', () => {
+  if (selectAllCheckbox.checked) {
+    lastFiltered.forEach((item) => selectedLinks.add(item.link));
+  } else {
+    lastFiltered.forEach((item) => selectedLinks.delete(item.link));
+  }
+  renderTable();
+});
+
+downloadSelectedBtn.addEventListener('click', () => {
+  selectedLinks.forEach((link) => {
+    const a = document.createElement('a');
+    a.href = link;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   });
 });
 
