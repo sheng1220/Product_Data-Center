@@ -94,7 +94,23 @@
   }
   #result-count { font-size: 0.82rem; color: #666; }
 
-  .selection-controls { display: flex; align-items: center; gap: 0.5rem; }
+  .selection-controls { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .select-all-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: #aaa;
+    cursor: pointer;
+    user-select: none;
+    margin-right: auto;
+  }
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #00C896;
+    cursor: pointer;
+  }
   #download-selected-btn, #clear-selection-btn {
     background: #242424;
     color: #aaa;
@@ -153,13 +169,57 @@
     #data-date { white-space: normal; }
     #contact-note { margin-left: 0; white-space: normal; }
     .control-panel { padding: 1rem; gap: 0.75rem; }
+
+    /* iOS Safari 會在 input 字體 < 16px 時自動放大畫面，這裡固定 16px 避免 */
+    #filter-input { font-size: 16px; }
+
+    .result-bar { align-items: flex-start; }
+    .selection-controls { width: 100%; }
+    #download-selected-btn, #clear-selection-btn {
+      flex: 1;
+      padding: 0.6rem 0.75rem;
+      min-height: 40px;
+    }
+    input[type="checkbox"] { width: 20px; height: 20px; }
+
+    /* 表格在窄螢幕改為卡片式排列，避免路徑欄位被擠壓或需要橫向捲動 */
+    .table-wrapper { max-height: none; overflow: visible; border: none; border-radius: 0; }
+    table, thead, tbody, tr { display: block; width: 100%; }
+    thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    tbody tr {
+      background: #242424;
+      border: 1px solid #333;
+      border-radius: 8px;
+      margin-bottom: 0.6rem;
+      padding: 0.5rem 0.75rem;
+    }
+    tbody tr:hover { background: #242424; }
+    td {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid #2e2e2e;
+    }
+    tbody tr td:last-child { border-bottom: none; }
+    td.select-cell { justify-content: flex-start; }
+    td[data-label]::before {
+      content: attr(data-label);
+      flex-shrink: 0;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #888;
+      letter-spacing: 0.03em;
+    }
+    td[data-label] a { text-align: right; word-break: break-all; }
   }
 </style>
 </head>
 <body>
   <header>
     <h1>IES 檔案清單</h1>
-    <span id="data-date">資料更新時間：2026-08-02 21:31</span>
+    <span id="data-date">資料更新時間：2026-08-03 08:53</span>
     <span id="contact-note">系統維護：Ryan</span>
   </header>
 
@@ -174,6 +234,10 @@
     <div class="result-bar">
       <div id="result-count" aria-live="polite"></div>
       <div class="selection-controls">
+        <label class="select-all-label">
+          <input type="checkbox" id="select-all-checkbox" aria-label="全選">
+          全選
+        </label>
         <button id="clear-selection-btn" type="button" disabled>清除已選取</button>
         <button id="download-selected-btn" type="button" disabled>下載已選取 (0)</button>
       </div>
@@ -183,7 +247,7 @@
       <table id="file-table" aria-label="IES 檔案清單">
         <thead>
           <tr>
-            <th class="select-col"><input type="checkbox" id="select-all-checkbox" aria-label="全選"></th>
+            <th class="select-col"></th>
             <th data-field="filename">檔名<span class="sort-arrow"></span></th>
             <th data-field="path">資料夾路徑<span class="sort-arrow"></span></th>
           </tr>
@@ -344,9 +408,11 @@ function renderTable() {
     tdCheck.appendChild(checkbox);
 
     const tdName = document.createElement('td');
+    tdName.dataset.label = '\u6a94\u540d';
     tdName.textContent = item.filename;
 
     const tdPath = document.createElement('td');
+    tdPath.dataset.label = '\u8cc7\u6599\u593e\u8def\u5f91';
     const a = document.createElement('a');
     a.href = item.link;
     a.textContent = item.path;
