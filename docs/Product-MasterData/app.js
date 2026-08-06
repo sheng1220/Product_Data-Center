@@ -15,14 +15,14 @@ const FIELD_LABELS = [
   ["ms",                   "Status"],
   ["pm",                   "PM"],
   ["planner",              "Planner"],
-  ["description_mag",      "Description MAG"],
   ["bus",                  "BG"],
   ["bu",                   "BU"],
-  ["mag",                  "Mag"],
+  ["mag",                  "MAG"],
   ["cag",                  "CAG"],
-  ["cag_name",             "CAG_NAME"],
-  ["portfolio",            "PORTFOLIO"],
   ["bsmi",                 "BSMI"],
+  ["portfolio",            "PORTFOLIO"],
+  ["cag_name",             "CAG_NAME"],
+  ["description_mag",      "Description MAG"],
 ];
 
 async function loadData() {
@@ -204,14 +204,14 @@ function renderPage() {
       <td>${msCell(p.ms)}</td>
       <td>${pmCell(p.pm)}</td>
       <td>${plannerCell(p.planner)}</td>
-      <td class="desktop-only">${e(p.description_mag)}</td>
       <td class="desktop-only">${e(p.bus)}</td>
       <td class="desktop-only">${e(p.bu)}</td>
       <td class="desktop-only">${e(p.mag)}</td>
       <td class="desktop-only">${e(p.cag)}</td>
-      <td class="desktop-only">${e(p.cag_name)}</td>
-      <td class="desktop-only">${e(p.portfolio)}</td>
       <td class="desktop-only">${bsmiCell(p.bsmi_material, p.bsmi_description)}</td>
+      <td class="desktop-only">${e(p.portfolio)}</td>
+      <td class="desktop-only">${e(p.cag_name)}</td>
+      <td class="desktop-only">${e(p.description_mag)}</td>
       <td class="mobile-only expand-btn">›</td>
     `;
     fragment.appendChild(tr);
