@@ -76,6 +76,7 @@ function populateFilters(products) {
   fillSelect("bg-filter",       unique(products.map(p => p.bus)));
   fillSelect("bu-filter",       unique(products.map(p => p.bu)));
   fillSelect("mag-filter",      unique(products.map(p => p.mag)));
+  fillSelect("status-filter",   unique(products.map(p => p.ms)));
   fillSelect("desc-mag-filter", unique(products.map(p => p.description_mag)));
 }
 
@@ -110,6 +111,7 @@ function applyFilters() {
   const bg      = document.getElementById("bg-filter").value;
   const bu      = document.getElementById("bu-filter").value;
   const mag     = document.getElementById("mag-filter").value;
+  const status  = document.getElementById("status-filter").value;
   const descMag = document.getElementById("desc-mag-filter").value;
 
   // Split query into whitespace-separated tokens; each must match (AND logic)
@@ -123,9 +125,10 @@ function applyFilters() {
     const matchesBg      = !bg      || p.bus === bg;
     const matchesBu      = !bu      || p.bu  === bu;
     const matchesMag     = !mag     || p.mag === mag;
+    const matchesStatus  = !status  || p.ms  === status;
     const matchesDescMag = !descMag || p.description_mag === descMag;
 
-    return matchesQuery && matchesBg && matchesBu && matchesMag && matchesDescMag;
+    return matchesQuery && matchesBg && matchesBu && matchesMag && matchesStatus && matchesDescMag;
   });
 
   currentPage = 1;
@@ -460,6 +463,7 @@ document.getElementById("search-input").addEventListener("input", onFilterChange
 document.getElementById("bg-filter").addEventListener("change", applyFilters);
 document.getElementById("bu-filter").addEventListener("change", applyFilters);
 document.getElementById("mag-filter").addEventListener("change", applyFilters);
+document.getElementById("status-filter").addEventListener("change", applyFilters);
 document.getElementById("desc-mag-filter").addEventListener("change", applyFilters);
 
 // Sticky header (clone-based)
