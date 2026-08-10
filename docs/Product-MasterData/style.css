@@ -229,6 +229,15 @@ tbody tr:hover { background: #2a2a2a; }
 .bsmi-material { font-weight: 600; color: #00C896; }
 .bsmi-description { font-weight: 600; color: #f0a030; }
 
+/* Qty Box (pcs) — gray: no orderbook match, red: EOL/stop-supply status, orange: value is 9190 */
+.qty-notfound { color: #444; }
+.qty-warning { color: #e05a5a; font-weight: 700; }
+.qty-9190 { color: #f0a030; font-weight: 700; }
+
+/* Source file staleness — orange: 7-30 days old, red: over 30 days old */
+.source-stale-orange { color: #f0a030; font-weight: 600; }
+.source-stale-red { color: #e05a5a; font-weight: 600; }
+
 /* Pagination */
 .pagination {
   display: flex;
