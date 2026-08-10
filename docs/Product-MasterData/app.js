@@ -19,6 +19,7 @@ const FIELD_LABELS = [
   ["bu",                   "BU"],
   ["mag",                  "MAG"],
   ["cag",                  "CAG"],
+  ["qty_box_pc",           "Qty Box (pcs)"],
   ["bsmi",                 "BSMI"],
   ["portfolio",            "PORTFOLIO"],
   ["cag_name",             "CAG_NAME"],
@@ -39,12 +40,21 @@ async function loadData() {
         year: "numeric", month: "2-digit", day: "2-digit",
         hour: "2-digit", minute: "2-digit",
       });
-      const masterdata = data.masterdata_file ? `MasterData：${data.masterdata_file}` : "";
-      const pmMapping = data.pm_mapping_file ? `PM_mapping：${data.pm_mapping_file}` : "";
-      const approbation = data.approbation_file ? `Approbation-Check：${data.approbation_file}` : "";
-      const sources = [masterdata, pmMapping, approbation].filter(Boolean).join("　|　");
-      document.getElementById("data-date").textContent =
-        `資料更新時間：${formatted}　|　${sources}`;
+      const sourceEntries = [
+        ["MasterData",         data.masterdata_file],
+        ["PM_mapping",         data.pm_mapping_file],
+        ["Approbation-Check",  data.approbation_file],
+        ["Orderbook",          data.orderbook_file],
+      ];
+      const sourceSpans = sourceEntries
+        .filter(([, filename]) => filename)
+        .map(([label, filename]) => {
+          const staleClass = sourceStaleClass(parseSourceFileDate(filename));
+          const text = `${label}：${filename}`;
+          return staleClass ? `<span class="${staleClass}">${e(text)}</span>` : e(text);
+        });
+      document.getElementById("data-date").innerHTML =
+        [...sourceSpans, e(`資料更新時間：${formatted}`)].join("　|　");
     }
 
     populateFilters(allProducts);
@@ -208,6 +218,7 @@ function renderPage() {
       <td class="desktop-only">${e(p.bu)}</td>
       <td class="desktop-only">${e(p.mag)}</td>
       <td class="desktop-only">${e(p.cag)}</td>
+      <td class="desktop-only">${qtyBoxCell(p.qty_box_pc, p.ms)}</td>
       <td class="desktop-only">${bsmiCell(p.bsmi_material, p.bsmi_description)}</td>
       <td class="desktop-only">${e(p.portfolio)}</td>
       <td class="desktop-only">${e(p.cag_name)}</td>
@@ -264,6 +275,12 @@ function showDetail(p) {
         <span class="detail-value">${bsmiCell(p.bsmi_material, p.bsmi_description)}</span>
       </div>`;
     }
+    if (key === "qty_box_pc") {
+      return `<div class="detail-row">
+        <span class="detail-label">${label}</span>
+        <span class="detail-value">${qtyBoxCell(p.qty_box_pc, p.ms)}</span>
+      </div>`;
+    }
     return `<div class="detail-row">
       <span class="detail-label">${label}</span>
       <span class="detail-value">${e(val) || '<span class="pm-empty">—</span>'}</span>
@@ -300,6 +317,41 @@ function isWarningMs(ms) {
   return /^Z[FGHO]/i.test(ms || '');
 }
 
+// Source filenames end in '..._YYYYMMDD.xlsx' or '..._MMDD.xlsx' (current year assumed).
+function parseSourceFileDate(filename) {
+  if (!filename) return null;
+  const m = filename.match(/_(\d{8}|\d{4})\.xlsx$/i);
+  if (!m) return null;
+  const digits = m[1];
+  let y, mo, d;
+  if (digits.length === 8) {
+    y = parseInt(digits.slice(0, 4), 10);
+    mo = parseInt(digits.slice(4, 6), 10);
+    d = parseInt(digits.slice(6, 8), 10);
+  } else {
+    y = new Date().getFullYear();
+    mo = parseInt(digits.slice(0, 2), 10);
+    d = parseInt(digits.slice(2, 4), 10);
+  }
+  const dt = new Date(Date.UTC(y, mo - 1, d));
+  return isNaN(dt.getTime()) ? null : dt;
+}
+
+function daysDiffFromToday(fileDate) {
+  if (!fileDate) return null;
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.floor((todayUTC - fileDate.getTime()) / 86400000);
+}
+
+function sourceStaleClass(fileDate) {
+  const diffDays = daysDiffFromToday(fileDate);
+  if (diffDays === null) return '';
+  if (diffDays > 30) return 'source-stale-red';
+  if (diffDays >= 7) return 'source-stale-orange';
+  return '';
+}
+
 const MS_LABELS = {
   ZF: "Stop Supply",
   ZG: "EOL",
@@ -319,6 +371,19 @@ function msCell(ms) {
 function plannerCell(planner) {
   if (!planner) return '<span class="pm-empty">—</span>';
   return `<span class="pm-exact">${e(planner)}</span>`;
+}
+
+function qtyBoxCell(qty, ms) {
+  if (!qty || qty === "Not Found") {
+    return `<span class="qty-notfound">${e(qty || "Not Found")}</span>`;
+  }
+  if (isWarningMs(ms)) {
+    return `<span class="qty-warning">⚠ ${e(qty)}</span>`;
+  }
+  if (String(qty).trim() === "9190") {
+    return `<span class="qty-9190">${e(qty)}</span>`;
+  }
+  return e(qty);
 }
 
 function bsmiCell(materialVal, descVal) {
