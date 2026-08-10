@@ -375,7 +375,7 @@ function plannerCell(planner) {
 
 function qtyBoxCell(qty, ms) {
   if (!qty || qty === "Not Found") {
-    return `<span class="qty-notfound">${e(qty || "Not Found")}</span>`;
+    return e(qty || "Not Found");
   }
   if (isWarningMs(ms)) {
     return `<span class="qty-warning">⚠ ${e(qty)}</span>`;
