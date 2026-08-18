@@ -9,6 +9,9 @@ let sortDirection = 'asc';
 
 const NUMERIC_FIELDS = new Set([]);
 
+// Sentinel for the status-filter's "(空白)" option; must never collide with a real status code.
+const EMPTY_STATUS_VALUE = "__EMPTY__";
+
 const FIELD_LABELS = [
   ["material",             "Material"],
   ["material_description", "Description"],
@@ -76,15 +79,25 @@ function populateFilters(products) {
   fillSelect("bg-filter",       unique(products.map(p => p.bus)));
   fillSelect("bu-filter",       unique(products.map(p => p.bu)));
   fillSelect("mag-filter",      unique(products.map(p => p.mag)));
-  fillSelect("status-filter",   unique(products.map(p => p.ms)));
+  fillSelect("status-filter",   unique(products.map(p => p.ms)), {
+    includeEmpty: products.some(p => !p.ms),
+    emptyValue: EMPTY_STATUS_VALUE,
+    emptyLabel: "(空白)",
+  });
   fillSelect("desc-mag-filter", unique(products.map(p => p.description_mag)));
 }
 
-function fillSelect(id, values) {
+function fillSelect(id, values, opts = {}) {
   const sel = document.getElementById(id);
   if (!sel) return;
   // Keep only the first "全部" option, remove any previously appended options
   while (sel.options.length > 1) sel.remove(1);
+  if (opts.includeEmpty) {
+    const opt = document.createElement("option");
+    opt.value = opts.emptyValue;
+    opt.textContent = opts.emptyLabel;
+    sel.appendChild(opt);
+  }
   values.forEach(v => {
     const opt = document.createElement("option");
     opt.value = v;
@@ -125,7 +138,7 @@ function applyFilters() {
     const matchesBg      = !bg      || p.bus === bg;
     const matchesBu      = !bu      || p.bu  === bu;
     const matchesMag     = !mag     || p.mag === mag;
-    const matchesStatus  = !status  || p.ms  === status;
+    const matchesStatus  = !status  || (status === EMPTY_STATUS_VALUE ? !p.ms : p.ms === status);
     const matchesDescMag = !descMag || p.description_mag === descMag;
 
     return matchesQuery && matchesBg && matchesBu && matchesMag && matchesStatus && matchesDescMag;
