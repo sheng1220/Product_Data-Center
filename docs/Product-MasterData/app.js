@@ -44,15 +44,15 @@ async function loadData() {
         hour: "2-digit", minute: "2-digit",
       });
       const sourceEntries = [
-        ["MasterData",         data.masterdata_file],
-        ["PM_mapping",         data.pm_mapping_file],
-        ["Approbation-Check",  data.approbation_file],
-        ["Orderbook",          data.orderbook_file],
+        ["MasterData",         data.masterdata_file,   "month"],
+        ["PM_mapping",         data.pm_mapping_file,   "month"],
+        ["Approbation-Check",  data.approbation_file,  "day"],
+        ["Orderbook",          data.orderbook_file,    "month"],
       ];
       const sourceSpans = sourceEntries
         .filter(([, filename]) => filename)
-        .map(([label, filename]) => {
-          const staleClass = sourceStaleClass(parseSourceFileDate(filename));
+        .map(([label, filename, mode]) => {
+          const staleClass = sourceStaleClass(parseSourceFileDate(filename), d, mode);
           const text = `${label}：${filename}`;
           return staleClass ? `<span class="${staleClass}">${e(text)}</span>` : e(text);
         });
@@ -353,19 +353,31 @@ function parseSourceFileDate(filename) {
   return isNaN(dt.getTime()) ? null : dt;
 }
 
-function daysDiffFromToday(fileDate) {
-  if (!fileDate) return null;
-  const now = new Date();
-  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-  return Math.floor((todayUTC - fileDate.getTime()) / 86400000);
+function daysDiffFromRef(fileDate, refDate) {
+  if (!fileDate || !refDate) return null;
+  const refUTC = Date.UTC(refDate.getUTCFullYear(), refDate.getUTCMonth(), refDate.getUTCDate());
+  return Math.floor((refUTC - fileDate.getTime()) / 86400000);
 }
 
-function sourceStaleClass(fileDate) {
-  const diffDays = daysDiffFromToday(fileDate);
-  if (diffDays === null) return '';
-  if (diffDays > 30) return 'source-stale-red';
-  if (diffDays >= 7) return 'source-stale-orange';
-  return '';
+function monthsDiffFromRef(fileDate, refDate) {
+  if (!fileDate || !refDate) return null;
+  return (refDate.getUTCFullYear() - fileDate.getUTCFullYear()) * 12
+    + (refDate.getUTCMonth() - fileDate.getUTCMonth());
+}
+
+// mode 'day': Approbation-Check — <4 days default, 4-7 orange, >7 red (vs. data generated_at).
+// mode 'month': MasterData / PM_mapping / Orderbook — same month as generated_at default, else red.
+function sourceStaleClass(fileDate, refDate, mode) {
+  if (mode === 'day') {
+    const diffDays = daysDiffFromRef(fileDate, refDate);
+    if (diffDays === null) return '';
+    if (diffDays > 7) return 'source-stale-red';
+    if (diffDays >= 4) return 'source-stale-orange';
+    return '';
+  }
+  const diffMonths = monthsDiffFromRef(fileDate, refDate);
+  if (diffMonths === null) return '';
+  return diffMonths >= 1 ? 'source-stale-red' : '';
 }
 
 const MS_LABELS = {
