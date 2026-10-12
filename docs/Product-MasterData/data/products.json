@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-08T09:38:16.520672+08:00",
+  "generated_at": "2026-10-12T09:39:15.637864+08:00",
   "masterdata_file": "MasterData_1002.xlsx",
   "pm_mapping_file": "PM_mapping_with AOP_20261001.xlsx",
   "approbation_file": "Signify_Approbation-Check_20261004.xlsx",
-  "orderbook_file": "Orderbook_20260901.xlsx",
+  "orderbook_file": "Orderbook_20261008.xlsx",
   "products": [
     {
       "material": "927989983531",
@@ -22845,7 +22845,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "98P664401",
@@ -54417,7 +54417,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "911401605207",
@@ -77295,7 +77295,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "40"
     },
     {
       "material": "919038803756",
@@ -82443,7 +82443,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "911401056080",
@@ -97383,7 +97383,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911401690601",
@@ -99507,7 +99507,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "928495605314",
@@ -100785,7 +100785,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "912400559327",
@@ -182703,7 +182703,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "60"
     },
     {
       "material": "911401518201",
@@ -193809,7 +193809,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "40"
     },
     {
       "material": "919038803175",
@@ -236055,7 +236055,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "40"
     },
     {
       "material": "919038800115",
@@ -236217,7 +236217,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "12"
     },
     {
       "material": "929689876607",
@@ -242589,7 +242589,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "200"
     },
     {
       "material": "913700331203",
@@ -244317,7 +244317,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "60"
     },
     {
       "material": "915005690601",
@@ -256467,7 +256467,7 @@
       "bsmi": "CI3A0065884050_1160517",
       "bsmi_material": "",
       "bsmi_description": "CI3A0065884050_1160517",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "9"
     },
     {
       "material": "911401539541",
@@ -286149,7 +286149,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "929002814080",
@@ -294969,7 +294969,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "300"
     },
     {
       "material": "911401677507",
@@ -306525,7 +306525,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "911401600181",
@@ -321771,7 +321771,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "300"
     },
     {
       "material": "923000317130",
@@ -326487,7 +326487,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "929000687808",
@@ -330897,7 +330897,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "9"
     },
     {
       "material": "913703020909",
@@ -347961,7 +347961,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "2"
     },
     {
       "material": "911401655006",
@@ -349383,7 +349383,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "20"
     },
     {
       "material": "929001354508",
@@ -352695,7 +352695,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "20"
     },
     {
       "material": "919038800128",
@@ -367527,7 +367527,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "20"
     },
     {
       "material": "929003876901",
@@ -391161,7 +391161,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "911401580022",
@@ -410367,7 +410367,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "60"
     },
     {
       "material": "823500404748",
@@ -410457,7 +410457,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "919038803567",
@@ -421329,7 +421329,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911401509731",
@@ -461847,7 +461847,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911401749282",
@@ -495129,7 +495129,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "60"
     },
     {
       "material": "919038066610",
@@ -503589,7 +503589,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "300"
     },
     {
       "material": "924704920505",
@@ -560739,7 +560739,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "12"
     },
     {
       "material": "98P999022",
@@ -576291,7 +576291,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "200"
     },
     {
       "material": "929002281308",
@@ -579945,7 +579945,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911401627301",
@@ -596271,7 +596271,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "6"
     },
     {
       "material": "910503703849",
@@ -599421,7 +599421,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "928503429491",
@@ -638751,7 +638751,7 @@
       "bsmi": "CI3A0065884050_1160517",
       "bsmi_material": "",
       "bsmi_description": "CI3A0065884050_1160517",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "9"
     },
     {
       "material": "98P313838",
@@ -657111,7 +657111,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "5"
     },
     {
       "material": "929003453080",
@@ -663141,7 +663141,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911400833580",
@@ -678099,7 +678099,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "2"
     },
     {
       "material": "911401554142",
@@ -698727,7 +698727,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "913700653384",
@@ -705027,7 +705027,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "64"
     },
     {
       "material": "824110100103",
@@ -720003,7 +720003,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "1"
+      "qty_box_pc": "200"
     },
     {
       "material": "910403330601",
@@ -727725,7 +727725,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "9"
     },
     {
       "material": "929000979303",
@@ -745113,7 +745113,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "40"
     },
     {
       "material": "911401746933",
@@ -778395,7 +778395,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "911401700024",
@@ -791355,7 +791355,7 @@
       "bsmi": "",
       "bsmi_material": "",
       "bsmi_description": "",
-      "qty_box_pc": "Not Found"
+      "qty_box_pc": "1"
     },
     {
       "material": "929002560712",
