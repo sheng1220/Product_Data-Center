@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T09:34:45.019293+08:00",
+  "generated_at": "2026-10-22T09:34:47.419124+08:00",
   "masterdata_file": "MasterData_1002.xlsx",
   "pm_mapping_file": "PM_mapping_with AOP_20261001.xlsx",
-  "approbation_file": "Signify_Approbation-Check_20261011.xlsx",
+  "approbation_file": "Signify_Approbation-Check_20261018.xlsx",
   "orderbook_file": "Orderbook_20261008.xlsx",
   "products": [
     {
@@ -457056,9 +457056,9 @@
       "cag": "633399",
       "cag_name": "MISC/Acc/Others Battens Comm",
       "portfolio": "Batten",
-      "bsmi": "CI3A9065883795_1151012/CI3A5065887833_1181012",
+      "bsmi": "CI3A5065887833_1181012",
       "bsmi_material": "",
-      "bsmi_description": "CI3A9065883795_1151012/CI3A5065887833_1181012",
+      "bsmi_description": "CI3A5065887833_1181012",
       "qty_box_pc": "1"
     },
     {
@@ -461538,9 +461538,9 @@
       "cag": "633399",
       "cag_name": "MISC/Acc/Others Battens Comm",
       "portfolio": "Batten",
-      "bsmi": "CI3A9065883795_1151012/CI3A5065887833_1181012",
+      "bsmi": "CI3A5065887833_1181012",
       "bsmi_material": "",
-      "bsmi_description": "CI3A9065883795_1151012/CI3A5065887833_1181012",
+      "bsmi_description": "CI3A5065887833_1181012",
       "qty_box_pc": "1"
     },
     {
