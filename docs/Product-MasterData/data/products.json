@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T09:34:47.597995+08:00",
+  "generated_at": "2026-10-29T09:34:48.242846+08:00",
   "masterdata_file": "MasterData_1002.xlsx",
   "pm_mapping_file": "PM_mapping_with AOP_20261001.xlsx",
-  "approbation_file": "Signify_Approbation-Check_20261018.xlsx",
+  "approbation_file": "Signify_Approbation-Check_20261025.xlsx",
   "orderbook_file": "Orderbook_20261008.xlsx",
   "products": [
     {
@@ -6408,9 +6408,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -12402,9 +12402,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -18126,9 +18126,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -19224,9 +19224,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -34380,9 +34380,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -46764,9 +46764,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -52272,9 +52272,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -63954,9 +63954,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -75996,9 +75996,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -100926,9 +100926,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -109908,9 +109908,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -124578,9 +124578,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -126054,9 +126054,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -126180,9 +126180,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -129168,9 +129168,9 @@
       "cag": "92402",
       "cag_name": "HF-P III TL5",
       "portfolio": "None",
-      "bsmi": "",
-      "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi": "CI3A5065887844_1180929; CI3A5065887844_1180929",
+      "bsmi_material": "CI3A5065887844_1180929",
+      "bsmi_description": "CI3A5065887844_1180929",
       "qty_box_pc": "12"
     },
     {
@@ -153108,8 +153108,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -163962,9 +163962,9 @@
       "cag": "322264",
       "cag_name": "SmartBright+ 2X4",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886467_1151121; CI3A2065886467_1151121",
-      "bsmi_material": "CI3A2065886467_1151121",
-      "bsmi_description": "CI3A2065886467_1151121",
+      "bsmi": "CI3A2065886467_1181121; CI3A2065886467_1181121",
+      "bsmi_material": "CI3A2065886467_1181121",
+      "bsmi_description": "CI3A2065886467_1181121",
       "qty_box_pc": "2"
     },
     {
@@ -173304,9 +173304,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -174060,9 +174060,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -187344,9 +187344,9 @@
       "cag": "322258",
       "cag_name": "SmartBright Plus Panel",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "6"
     },
     {
@@ -193266,9 +193266,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -195984,9 +195984,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -240462,9 +240462,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -242622,9 +242622,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -245124,9 +245124,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -251442,9 +251442,9 @@
       "cag": "322203",
       "cag_name": "RC088B APR",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "8"
     },
     {
@@ -253152,9 +253152,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -280476,8 +280476,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886467_1151121",
-      "bsmi_material": "CI3A2065886467_1151121",
+      "bsmi": "CI3A2065886467_1181121",
+      "bsmi_material": "CI3A2065886467_1181121",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -280692,9 +280692,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -291114,9 +291114,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -293058,9 +293058,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -294570,9 +294570,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -301878,9 +301878,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -317250,9 +317250,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -335430,9 +335430,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -337914,9 +337914,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -348246,9 +348246,9 @@
       "cag": "322264",
       "cag_name": "SmartBright+ 2X4",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886467_1151121; CI3A2065886467_1151121",
-      "bsmi_material": "CI3A2065886467_1151121",
-      "bsmi_description": "CI3A2065886467_1151121",
+      "bsmi": "CI3A2065886467_1181121; CI3A2065886467_1181121",
+      "bsmi_material": "CI3A2065886467_1181121",
+      "bsmi_description": "CI3A2065886467_1181121",
       "qty_box_pc": "2"
     },
     {
@@ -354366,9 +354366,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -363636,9 +363636,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -369666,9 +369666,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -370692,9 +370692,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -375516,9 +375516,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -392688,9 +392688,9 @@
       "cag": "322258",
       "cag_name": "SmartBright Plus Panel",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "6"
     },
     {
@@ -398628,9 +398628,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -403704,9 +403704,9 @@
       "cag": "322203",
       "cag_name": "RC088B APR",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "8"
     },
     {
@@ -412722,9 +412722,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -427032,9 +427032,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -446670,9 +446670,9 @@
       "cag": "322258",
       "cag_name": "SmartBright Plus Panel",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "6"
     },
     {
@@ -453690,9 +453690,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -475020,9 +475020,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -478566,8 +478566,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -481122,9 +481122,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -483966,8 +483966,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886467_1151121",
-      "bsmi_material": "CI3A2065886467_1151121",
+      "bsmi": "CI3A2065886467_1181121",
+      "bsmi_material": "CI3A2065886467_1181121",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -511956,9 +511956,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -526878,9 +526878,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -545022,9 +545022,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -553554,9 +553554,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -554508,9 +554508,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -578376,9 +578376,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -579330,9 +579330,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "CI3A5065887712_1180623",
+      "bsmi": "",
       "bsmi_material": "",
-      "bsmi_description": "CI3A5065887712_1180623",
+      "bsmi_description": "",
       "qty_box_pc": "2"
     },
     {
@@ -579924,9 +579924,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -593622,9 +593622,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -609606,9 +609606,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -622836,9 +622836,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -628488,9 +628488,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -628542,9 +628542,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "3"
     },
     {
@@ -657198,9 +657198,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -669258,9 +669258,9 @@
       "cag": "322203",
       "cag_name": "RC088B APR",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "8"
     },
     {
@@ -691128,9 +691128,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -695808,8 +695808,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -703602,9 +703602,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -717228,9 +717228,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -731124,9 +731124,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -733392,9 +733392,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -737982,9 +737982,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "CI3A5065887712_1180623",
+      "bsmi": "",
       "bsmi_material": "",
-      "bsmi_description": "CI3A5065887712_1180623",
+      "bsmi_description": "",
       "qty_box_pc": "2"
     },
     {
@@ -740250,9 +740250,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
@@ -754956,9 +754956,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "6"
     },
     {
@@ -755010,9 +755010,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "10"
     },
     {
@@ -794646,8 +794646,8 @@
       "cag": "322241",
       "cag_name": "SmartBright Direct lit panel -C",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
       "bsmi_description": "",
       "qty_box_pc": "1"
     },
@@ -797562,9 +797562,9 @@
       "cag": "322258",
       "cag_name": "SmartBright Plus Panel",
       "portfolio": "Panel",
-      "bsmi": "CI3A2065886412_1151024; CI3A2065886412_1151024",
-      "bsmi_material": "CI3A2065886412_1151024",
-      "bsmi_description": "CI3A2065886412_1151024",
+      "bsmi": "CI3A2065886412_1181024; CI3A2065886412_1181024",
+      "bsmi_material": "CI3A2065886412_1181024",
+      "bsmi_description": "CI3A2065886412_1181024",
       "qty_box_pc": "6"
     },
     {
@@ -802980,9 +802980,9 @@
       "cag": "275809",
       "cag_name": "FastFashion",
       "portfolio": "R&H",
-      "bsmi": "CI3A2065886401_1151025",
+      "bsmi": "CI3A2065886401_1181025",
       "bsmi_material": "",
-      "bsmi_description": "CI3A2065886401_1151025",
+      "bsmi_description": "CI3A2065886401_1181025",
       "qty_box_pc": "4"
     },
     {
