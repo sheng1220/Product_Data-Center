@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T09:34:59.425409+08:00",
+  "generated_at": "2026-11-19T09:34:45.648066+08:00",
   "masterdata_file": "MasterData_1102.xlsx",
   "pm_mapping_file": "PM_mapping_with AOP_20261101.xlsx",
-  "approbation_file": "Signify_Approbation-Check_20261108.xlsx",
+  "approbation_file": "Signify_Approbation-Check_20261115.xlsx",
   "orderbook_file": "Orderbook_20261008.xlsx",
   "products": [
     {
@@ -4050,9 +4050,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -15876,9 +15876,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -16506,9 +16506,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -60336,9 +60336,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -61308,9 +61308,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -65358,9 +65358,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -72342,9 +72342,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -89910,9 +89910,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -111852,9 +111852,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -112680,9 +112680,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -132804,9 +132804,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -153486,9 +153486,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -165402,9 +165402,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -174906,9 +174906,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -176850,9 +176850,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -184266,9 +184266,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -194742,9 +194742,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -213840,9 +213840,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -228654,9 +228654,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -232452,9 +232452,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -245088,9 +245088,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -260226,9 +260226,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -278712,9 +278712,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -281610,9 +281610,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -302904,9 +302904,9 @@
       "cag": "633399",
       "cag_name": "MISC/Acc/Others Battens Comm",
       "portfolio": "Batten",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -308952,9 +308952,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -341712,9 +341712,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -343278,9 +343278,9 @@
       "cag": "313840",
       "cag_name": "Specials Recessed LED",
       "portfolio": "Panel",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -343476,9 +343476,9 @@
       "cag": "633399",
       "cag_name": "MISC/Acc/Others Battens Comm",
       "portfolio": "Batten",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -357318,9 +357318,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -361836,9 +361836,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -389592,9 +389592,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -428130,9 +428130,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -431910,9 +431910,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -444168,9 +444168,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -447516,9 +447516,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -466200,9 +466200,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -469998,9 +469998,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -476010,9 +476010,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -486972,9 +486972,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -502830,9 +502830,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -516042,9 +516042,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -523152,9 +523152,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -533772,9 +533772,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "CI3A5065887800_1180928",
+      "bsmi": "CI3A5065887800_1180928; CI3A5065887855_1181108",
       "bsmi_material": "CI3A5065887800_1180928",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -536616,9 +536616,9 @@
       "cag": "313840",
       "cag_name": "Specials Recessed LED",
       "portfolio": "Panel",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "1"
     },
     {
@@ -552186,9 +552186,9 @@
       "cag": "633399",
       "cag_name": "MISC/Acc/Others Battens Comm",
       "portfolio": "Batten",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -556146,9 +556146,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -604476,9 +604476,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -617832,9 +617832,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -636426,9 +636426,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -650700,9 +650700,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -665064,9 +665064,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -667692,9 +667692,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -686592,9 +686592,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -694080,9 +694080,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -694602,9 +694602,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "CI3A5065887800_1180928",
+      "bsmi": "CI3A5065887800_1180928; CI3A5065887855_1181108",
       "bsmi_material": "CI3A5065887800_1180928",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -704880,9 +704880,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883963_1160107",
+      "bsmi": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883963_1160107",
+      "bsmi_description": "CI3A0065883963_1160107/CI3A5065887866_1190107",
       "qty_box_pc": "2"
     },
     {
@@ -717606,9 +717606,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -725562,9 +725562,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -738900,9 +738900,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -747486,9 +747486,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -757854,9 +757854,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "1"
     },
     {
@@ -776196,9 +776196,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -784854,9 +784854,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -792018,9 +792018,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -793908,9 +793908,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -794556,9 +794556,9 @@
       "cag": "313808",
       "cag_name": "PowerBalance Recessed",
       "portfolio": "Panel",
-      "bsmi": "",
+      "bsmi": "CI3A5065887855_1181108",
       "bsmi_material": "",
-      "bsmi_description": "",
+      "bsmi_description": "CI3A5065887855_1181108",
       "qty_box_pc": "2"
     },
     {
@@ -797238,9 +797238,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
@@ -804222,9 +804222,9 @@
       "cag": "130605",
       "cag_name": "T8 Performance Others",
       "portfolio": "Prof. Led",
-      "bsmi": "CI3A0065883974_1160117",
+      "bsmi": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "bsmi_material": "",
-      "bsmi_description": "CI3A0065883974_1160117",
+      "bsmi_description": "CI3A0065883974_1160117/CI3A5065887877_1190117",
       "qty_box_pc": "2"
     },
     {
