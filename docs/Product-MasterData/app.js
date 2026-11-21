@@ -417,14 +417,25 @@ function qtyBoxCell(qty, ms) {
   return e(qty);
 }
 
-// Escape the cert string, then turn each cert number that has a Drive file into a link.
-// Numbers without a file stay plain text. Access is enforced by Drive permissions.
+// Render a cert string such as "CI3A3065886929_1160728/CI3A...": each cert number becomes a
+// Drive link when a file exists (plain text otherwise), and the "_date" part is shown as
+// "(date)" outside the link so the underline doesn't run into the underscore.
+// Access to the file itself is enforced by Drive permissions.
 function linkCerts(text) {
-  return e(text).replace(/CI\d[A-Z]\d{10}/gi, num => {
+  const re = /(CI\d[A-Z]\d{10})(?:_([^/;]*))?/gi;
+  let out = "", last = 0, m;
+  while ((m = re.exec(text)) !== null) {
+    out += e(text.slice(last, m.index));
+    const num = m[1];
     const id = bsmiFiles[num.toUpperCase()];
-    if (!id) return num;
-    return `<a class="cert-link" href="https://drive.google.com/file/d/${encodeURIComponent(id)}/view" target="_blank" rel="noopener noreferrer" title="開啟證書（需有 Drive 權限）">${num}</a>`;
-  });
+    out += id
+      ? `<a class="cert-link" href="https://drive.google.com/file/d/${encodeURIComponent(id)}/view" target="_blank" rel="noopener noreferrer" title="開啟證書（需有 Drive 權限）">${e(num)}</a>`
+      : e(num);
+    const date = (m[2] || "").trim();
+    if (date) out += `(${e(date)})`;
+    last = re.lastIndex;
+  }
+  return out + e(text.slice(last));
 }
 
 function bsmiCell(materialVal, descVal) {
