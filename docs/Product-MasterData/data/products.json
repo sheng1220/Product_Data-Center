@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-11-19T09:34:45.648066+08:00",
+  "generated_at": "2026-11-21T12:53:53.363460+08:00",
   "masterdata_file": "MasterData_1102.xlsx",
   "pm_mapping_file": "PM_mapping_with AOP_20261101.xlsx",
   "approbation_file": "Signify_Approbation-Check_20261115.xlsx",
   "orderbook_file": "Orderbook_20261008.xlsx",
+  "bsmi_files": {},
   "products": [
     {
       "material": "919038810018",
