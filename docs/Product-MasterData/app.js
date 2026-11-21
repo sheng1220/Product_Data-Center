@@ -2,6 +2,8 @@ const DATA_URL = "data/products.json";
 const PAGE_SIZE = 100;
 
 let allProducts = [];
+// 證書編號(大寫) -> Drive 檔案 ID；只有 Drive 裡真的有檔案的編號才會在這裡
+let bsmiFiles = {};
 let filteredProducts = [];
 let currentPage = 1;
 let sortKey = null;
@@ -35,6 +37,7 @@ async function loadData() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     allProducts = data.products;
+    bsmiFiles = data.bsmi_files || {};
 
     if (data.generated_at) {
       const d = new Date(data.generated_at);
@@ -414,10 +417,20 @@ function qtyBoxCell(qty, ms) {
   return e(qty);
 }
 
+// Escape the cert string, then turn each cert number that has a Drive file into a link.
+// Numbers without a file stay plain text. Access is enforced by Drive permissions.
+function linkCerts(text) {
+  return e(text).replace(/CI\d[A-Z]\d{10}/gi, num => {
+    const id = bsmiFiles[num.toUpperCase()];
+    if (!id) return num;
+    return `<a class="cert-link" href="https://drive.google.com/file/d/${encodeURIComponent(id)}/view" target="_blank" rel="noopener noreferrer" title="開啟證書（需有 Drive 權限）">${num}</a>`;
+  });
+}
+
 function bsmiCell(materialVal, descVal) {
   const parts = [];
-  if (materialVal) parts.push(`<span class="bsmi-material">${e(materialVal)}</span>`);
-  if (descVal) parts.push(`<span class="bsmi-description">${e(descVal)}</span>`);
+  if (materialVal) parts.push(`<span class="bsmi-material">${linkCerts(materialVal)}</span>`);
+  if (descVal) parts.push(`<span class="bsmi-description">${linkCerts(descVal)}</span>`);
   if (parts.length === 0) return '<span class="pm-empty">—</span>';
   return parts.join('; ');
 }
