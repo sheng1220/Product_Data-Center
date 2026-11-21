@@ -228,6 +228,9 @@ tbody tr:hover { background: #2a2a2a; }
 /* BSMI badges — green: matched via material, orange: matched via material_description */
 .bsmi-material { font-weight: 600; color: #00C896; }
 .bsmi-description { font-weight: 600; color: #f0a030; }
+/* Cert numbers with a Drive file: keep the badge colour, add link affordance */
+.cert-link { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.cert-link:hover { text-decoration-thickness: 2px; }
 
 /* Qty Box (pcs) — red: EOL/stop-supply status, orange: value is 9190 */
 .qty-warning { color: #e05a5a; font-weight: 700; }
